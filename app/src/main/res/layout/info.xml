@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Info">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="225dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="16dp"
+            android:baselineAlignBottom="false"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/nameText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textSize="14sp"
+            app:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/idText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameText2"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/yearText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idText"
+            android:layout_alignStart="@+id/idText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/typeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/yearText2"
+            android:layout_alignStart="@+id/yearText2"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/ratedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/typeText"
+            android:layout_alignStart="@+id/yearText2"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/releasedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratedText"
+            android:layout_alignStart="@+id/ratedText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/runtimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/releasedText"
+            android:layout_alignStart="@+id/releasedText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/genreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/runtimeText"
+            android:layout_alignStart="@+id/runtimeText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/directorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/genreText"
+            android:layout_alignStart="@+id/genreText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/writerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/directorText"
+            android:layout_alignStart="@+id/directorText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/actorsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/writerText"
+            android:layout_alignStart="@+id/writerText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/plotText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/actorsText"
+            android:layout_alignStart="@+id/actorsText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/languageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plotText"
+            android:layout_alignStart="@+id/plotText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/countryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/languageText"
+            android:layout_alignStart="@+id/languageText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/awardsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/countryText"
+            android:layout_alignStart="@+id/countryText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/ratingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/awardsText"
+            android:layout_alignStart="@+id/awardsText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/votesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingText"
+            android:layout_alignStart="@+id/ratingText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/productionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/votesText"
+            android:layout_alignStart="@+id/typeText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productionText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="16dp"
+            android:text="Go back" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
